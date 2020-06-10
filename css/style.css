@@ -1,0 +1,495 @@
+/* 
+-----------------------------------------
+font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+-----------------------------------------
+ */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background: #f2f2f2;
+}
+
+.center {
+  text-align: center;
+}
+
+.section-inner {
+  width: 1180px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-start {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff;
+  background: linear-gradient(90deg, #fe985b 2.77%, #fe4fa7 97.42%);
+  border-radius: 4px;
+  margin-bottom: 67px;
+  width: 192px;
+  height: 53px;
+  cursor: pointer;
+  text-decoration: none;
+  border: none;
+}
+
+.btn-start:hover {
+  background: linear-gradient(90deg, #fe4fa7 2.77%, #fe985b 97.42%);
+  color: #ffffff;
+}
+
+/* --- Header--- */
+.section-header {
+  color: #fff;
+  background: url(../img/Bitmap.png) no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.section-header .section-inner {
+  height: 100vh;
+}
+
+.section-inner .section-header-logo {
+  width: 109px;
+  height: 29px;
+  color: #ffffff;
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 700;
+  flex-shrink: 1;
+  margin-top: 35px;
+}
+
+.section-inner .section-header-content {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+}
+
+.section-header-content .section-header-wrapper {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.section-header_title {
+  width: 680px;
+  height: 61px;
+  color: #ffffff;
+  font-family: Lato;
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 60px;
+  margin-bottom: 18px;
+  width: 90%;
+  margin: 0 auto 20px;
+}
+
+.section-header_subtitle {
+  color: rgb(255, 254, 254);
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  height: 59px;
+  line-height: 32px;
+  width: 80%;
+  margin: 0 auto 44px;
+}
+
+.section-header_form {
+  display: flex;
+}
+
+.section-header_form-input {
+  flex: 1;
+  padding-right: 40px;
+}
+
+.section-header_form-input input {
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.25);
+  padding: 16px 20px;
+  border: none;
+  color: #fff;
+  outline: none;
+  width: 100%;
+  transition: 0.6s;
+}
+
+.section-header_form-input input::placeholder {
+  color: #fff;
+}
+
+.section-header_form-input input:focus {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.section-header_form-buttom button {
+  border-radius: 4px;
+  transition: 0.2s;
+  background-image: linear-gradient(to right, #fe985b 0%, #fe4fa7 10%);
+  padding: 16px 20px;
+  color: #fff;
+  outline: none;
+  border: none;
+}
+
+/* --- / Header--- */
+
+/* --- Promo--- */
+.section-promo {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.section-promo-top,
+.section-promo-buttom {
+  display: flex;
+}
+
+.section-promo-top-content,
+.section-promo-top-video {
+  flex-basis: 50%;
+}
+
+.section-promo-top-content {
+  padding-right: 90px;
+}
+
+.section-promo-top-content .title {
+  font-family: Lato;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 51px;
+  color: #414141;
+  margin-bottom: 50px;
+}
+
+.section-promo-top-content .subtitle {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #414141;
+  margin-bottom: 10px;
+}
+
+.section-promo-top-content .text {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  color: #6c6c6c;
+  margin-bottom: 25px;
+}
+
+.section-promo-buttom {
+  padding-top: 86px;
+  margin-top: 120px;
+  border-top: 1px solid #e2e2e2;
+}
+
+.section-promo-buttom-item {
+  margin-right: 50px;
+}
+
+.section-promo-buttom-item .icon {
+  margin-bottom: 20px;
+}
+
+.section-promo-buttom-item .title {
+  margin-bottom: 14px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #414141;
+}
+
+.section-promo-buttom-item .content {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  color: #6c6c6c;
+  margin-bottom: 25px;
+}
+
+/* --- / Promo--- */
+
+/* --- Founder--- */
+.section-founder {
+  background: #f6fafd;
+}
+
+.section-founder .section-inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.section-founder-img {
+  margin-top: 50px;
+  align-self: flex-end;
+  width: 40%;
+}
+
+.section-founder-content {
+  align-self: center;
+  font-family: Lato;
+  width: 60%;
+  color: #414141;
+}
+
+.section-founder-content-text {
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 40px;
+}
+
+.section-founder-content-name {
+  padding-top: 30px;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.section-founder-content-post {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+/* --- / Founder--- */
+
+/* --- Plans--- */
+
+.section-plans-title {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 51px;
+  text-align: center;
+  color: #414141;
+  margin-top: 115px;
+}
+
+.section-plans-subtitle {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  color: #6c6c6c;
+  margin: 0 auto;
+  margin-top: 17px;
+  margin-bottom: 95px;
+  width: 50%;
+}
+
+.section-plans-list {
+  display: flex;
+  justify-content: center;
+}
+
+.section-plans-list-item {
+  flex-basis: 370px;
+  padding: 0 60px 0 60px;
+  text-align: center;
+}
+
+.section-plans-list-item:hover {
+  background-color: #f6fafd;
+  transition: 0.2s;
+}
+
+.section-plans-list-item-title {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #414141;
+  margin-top: 52px;
+  margin-bottom: 27px;
+}
+
+.section-plans-list-item-price {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  margin-bottom: 27px;
+}
+
+.section-plans-list-item-price .pre {
+  font-size: 72px;
+  line-height: 86px;
+  color: #fe4fa7;
+}
+
+.section-plans-list-item-price .pro {
+  font-size: 14px;
+  line-height: 17px;
+  color: #414141;
+}
+
+.section-plans-list-item-text {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  color: #6c6c6c;
+  margin-bottom: 27px;
+}
+
+.section-plans-list-item-button button {
+  margin-bottom: 57px;
+}
+
+.no-active {
+  background: white;
+  color: #414141;
+  border: 1px solid #414141;
+}
+
+/* --- / Plans--- */
+
+/* --- Free--- */
+
+.section-free {
+  font-family: Lato;
+  font-weight: normal;
+  font-style: normal;
+  text-align: center;
+  color: white;
+  margin-top: 150px;
+  background: linear-gradient(90deg, #fe985b 2.77%, #fe4fa7 100%);
+}
+
+.section-free .section-inner {
+  width: 40%;
+}
+
+.section-free-title {
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 60px;
+  margin-top: 120px;
+  margin-bottom: 28px;
+}
+
+.section-free-text {
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 50px;
+}
+
+.section-free-button .btn-start {
+  font-size: 18px;
+  line-height: 22px;
+  color: #464646;
+  margin-bottom: 120px;
+  background: #ffffff;
+}
+
+/* --- / Free--- */
+
+/* --- Footer--- */
+.section-footer {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+  color: #464646;
+}
+
+.section-footer .section-inner {
+  width: 50%;
+}
+
+.section-footer-logo {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  margin: 86px 0 29px 0;
+}
+
+.section-footer-list {
+  margin-top: 25px;
+  margin-bottom: 74px;
+}
+
+.section-footer-list a {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+  margin-bottom: 74px;
+  text-decoration: none;
+  color: #464646;
+  transition: 0.2s;
+}
+
+.section-footer-list ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.section-footer-list ul li {
+  margin: 0 auto;
+}
+
+.section-footer-list a:hover {
+  color: #fe50a6;
+}
+
+.section-footer-copyright .li {
+  margin: 0 auto;
+}
+
+/* ----------------------------------------------------------  */
+.section-footer-copyright .list ul {
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 17px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 74px;
+}
+
+.list ul li {
+  margin: 0 auto;
+}
+
+.list a {
+  text-decoration: none;
+  color: #464646;
+}
+
+.list a:hover {
+  text-decoration: underline;
+}
+
+/* --- / Footer--- */
